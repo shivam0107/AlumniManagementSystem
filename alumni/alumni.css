@@ -1,0 +1,297 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.header-section{
+    
+    background-image: linear-gradient(to right ,#ffcc00,rgb(32, 128, 237));
+    height: 5em;
+
+}
+.header{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    gap: 70em;
+    
+  
+
+}
+
+#heading{
+    margin-left: 2em;
+    margin-top: 1em;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 10rem;
+    
+     
+}
+
+.sign-up-button{
+    color: white;
+  padding: 10px;
+  background: transparent;
+  border-radius: 5px;
+  background-color: #367E18;
+}
+
+.login-button{
+    color: white;
+  padding: 10px;
+  background: transparent;
+  border-radius: 5px;
+  background-color: #367E18;
+}
+
+.login-signUp-button{
+    margin-left: 2em;
+    margin-top: 1em;
+
+    display: flex;
+    gap: 2em;
+}
+
+
+.navbar-section{
+    height: 50px;
+    width: 100vw;
+    background-color:#ffcc00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav-item-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+   
+    
+
+}
+
+.nav-item-section li {
+    list-style-type: none;
+   
+    
+
+}
+
+.nav-item-section li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(80, 140, 231);
+}
+.nav-item-section li a:hover{
+   
+    color: black;
+}
+
+
+.search-bar{
+
+    background-color: white;
+    background-color: #367E18;
+}
+#search{
+    height: 2em;
+    border: yellowgreen;
+}
+
+.hero-section{
+    /* height: 100vh;
+    width: 100vw; */
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+.alumni-directory-section{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-content{
+    max-width: 1140px;
+    border: 3px solid #e3e3e3;
+    border-radius: 8px;
+    box-shadow: 0 7px 29px 0 hsl(240deg 5% 41% / 20%);
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 20px;
+}
+
+
+ .right-part img{
+    width: 90%;
+    border: 2px solid #e3e3e3;
+    border-radius: 8px;
+    padding: 8px;
+     
+}
+
+.card-content .left-part{
+
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.card-content .left-part .name{
+    color: yellowgreen;
+    font-style: bold;
+}
+
+/* Alumini card section */
+
+.alum-card-section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.alum-card .card-items img{
+    width: 50%;
+    clip-path: circle(50px);
+    margin-top: 2em;
+
+}
+
+.alum-card .card-items h2{
+    margin-bottom: 2em;
+
+}
+
+.alum-card{
+    display: flex;
+    gap: 2rem;
+}
+
+.card-items{
+    background-color: #ffcc00;
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap:2rem;
+
+    border-radius: 10px;
+    
+}
+
+
+/* footer section */
+ 
+
+.footer-section{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 2rem 5rem;
+}
+
+.footer-section img{
+    width: 70%;
+}
+
+.footer-section .about-institute-section{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 300px;
+
+}
+
+.useful-links h2{
+    color: gray;
+}
+
+.useful-links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+.useful-links .nav-links{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+.useful-links .nav-links li a{
+    text-decoration: none;
+
+}
+.useful-links .nav-links li {
+    list-style-type: none;
+
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.social-media .social-handels{
+    display: flex;
+    flex-direction: row;
+    gap: 5em;   
+}
+
+.social-handels .icons{
+    width: 500px;
+   
+}
+
+.social-media .Login-dashboard{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(95, 146, 241);
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    padding-top: 0.8em;
+    border-radius: 10px;
+    color: white;
+}
+
+
+hr{
+    width: 100%;
+   
+    color: grey;
+    height: 10px;
+    
+}
+
+.copyright{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.end{
+    background-color: #367E18;
+    height: 20px;
+    
+}

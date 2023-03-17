@@ -1,0 +1,426 @@
+/* 
+
+.navbar{
+    background-color: aquamarine;
+   
+}
+
+ 
+
+.navbar ul{
+    overflow: auto;
+    margin-left: 500px;
+    
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 15px 3px;
+    
+}
+
+.navbar li a{
+    padding: 3px 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+section{
+    /* margin-bottom: 50px; */
+}
+
+body{
+    background-color:white;
+    
+}
+
+
+
+
+
+
+ /* navbar */
+
+
+ .top{
+    height: 90px;
+    background-color: #f4f462;
+    background-image: linear-gradient(to right ,#ffcc00,rgb(73, 170, 239));
+
+ }
+ .logo{
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ 
+ .sign{
+    margin-top: 20px;
+ }
+ .sign button{
+  color: white;
+  padding: 10px;
+ }
+ 
+.sign button{
+    background: transparent;
+    border-radius: 5px;
+    background-color: #367E18;
+}
+
+login{
+    margin-top: 20px;
+    float: left;
+ }
+ .login button{
+  color: white;
+  padding: 10px;
+ }
+ 
+.login button{
+    background: transparent;
+    border-radius: 5px;
+    background-color: #367E18;
+}
+
+
+
+
+
+
+ .shail_img img{
+    padding-left: 100px;
+    height: 50px ;
+    width: 50px;
+    margin-top: 0px;
+    margin-bottom: -100px;
+ }
+
+ 
+ .header-wrapper h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #080908;
+    font-weight: 600;
+    margin-top: 8px;
+    font-size: 30px;
+    font-family: cursive;
+ }
+
+.nav-item{
+    margin-top: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.nav-item a{
+    float: left;
+    padding-right: 30px;
+    text-decoration: none;
+    color: rgb(5, 112, 219);
+    font-weight: 600;
+    
+}
+
+.nav-item a:hover,
+.nav-item a:active{
+    color: black;
+
+}
+
+.nav-search{
+    margin-top: 15px;
+  
+}
+#search {
+   background-color: white;
+  
+}
+.header-wrapper{
+    background-color: #ffcc00;
+    height: 60px;
+    
+}
+
+.header-container input{
+    margin-left: 40px;
+    background: transparent;
+    border-radius: 5px;
+    text-align: center;
+    border-color: azure;
+    color: azure;
+}
+
+
+
+
+/* navbar end */
+/* hero section start */
+ 
+.hero-img #img1{
+    width: 100%;
+    height: 200%;
+}
+
+/* hero section end */
+
+/* txt over hero section */
+.hero-img{
+    position: relative;
+    text-align: center;
+    
+    
+}
+.center{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    /* transform: translate(-25%, -50%); */
+    color: #060606;
+    font-weight: 600;
+    font-family:  'Times New Roman', Times, serif;
+    font-size:xx-large;
+}
+
+.center-next{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    right: 10%;
+    color: #060606;
+    font-weight: 500;
+}
+
+
+/* txt over hero section end*/
+
+#strip{
+    height: 5px;
+    background-color:#FF731D;
+     box-shadow: 0px 0px 10px 3px;
+}
+
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-decoration: underline 2px rgb(25, 162, 25);
+}
+
+
+/* connection section */
+ .connection-section{
+    width: 100%;
+    background: azure;
+    height: 550px;
+
+
+ }
+ .connection-section h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 25px 0px;
+    color: #367E18;
+   text-decoration: underline 2px;
+ }
+
+ .connection-section-item{
+    width: 1470px;
+    margin: auto;
+    flex: wrap;
+   
+    display: flex;
+    justify-content: space-around;
+   
+ }
+ .connection-item{
+     flex-basis: 23%; 
+    margin: 10px 10px ;
+   box-shadow: 0px 0px 10px 3px;
+   background: white;
+   text-align: center;
+   
+ }
+ .connection-item img{
+    height: 30%;
+    width: 30%;
+    
+ }
+
+ .connection-item h3{
+    padding: 10px 0px ;
+    color: #367E18;
+
+ }
+ .connection-item p{
+  font-size: 14px;
+  padding: 10px;
+    
+ }
+ .connection-item button{
+    padding: 10px 25px ;
+    background: rgb(144, 235, 144);
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 10px;
+    
+ }
+
+ .connection-item:hover{
+    background: rgb(155, 237, 158);
+
+ }
+ .connection-item:hover h3{
+    color:white;
+ }
+ .training-items:hover p{
+    color: rgb(255, 255, 255);
+ }
+
+ .connection-item:hover button{
+    background: white;
+    color: blue;
+ }
+ 
+
+/* connection section end */
+
+
+/* about section */
+.about .about-content{
+    margin-top: 150px;
+    padding: 25px 0px;
+}
+
+.heading{
+    color: #367E18;
+}
+
+
+/* end about */
+
+
+/* footer section */
+ 
+
+.footer-section{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 2rem 5rem;
+}
+
+.footer-section img{
+    width: 70%;
+}
+
+.footer-section .about-institute-section{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 300px;
+
+}
+
+.useful-links h2{
+    color: gray;
+}
+
+.useful-links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+.useful-links .nav-links{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+.useful-links .nav-links li a{
+    text-decoration: none;
+
+}
+.useful-links .nav-links li {
+    list-style-type: none;
+
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.social-media .social-handels{
+    display: flex;
+    flex-direction: row;
+    gap: 5em;   
+}
+
+.social-handels .icons{
+    width: 500px;
+   
+}
+
+.social-media .Login-dashboard{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(95, 146, 241);
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    padding-top: 0.8em;
+    border-radius: 10px;
+    color: white;
+}
+
+
+hr{
+    width: 100%;
+   
+    color: grey;
+    height: 10px;
+    
+}
+
+.copyright{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.end{
+    background-color: #367E18;
+    height: 20px;
+    
+}
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 767px){
+    .connection-section-item{
+        width:100% ;
+        flex-direction: column;
+    }
+}
+    
+
