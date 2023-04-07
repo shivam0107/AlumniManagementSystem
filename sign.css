@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    /* height: 100vh; */
+        
+}
+
+.container{
+    display: flex;
+   
+    align-items: center;
+    height: 20em;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1px;
+    gap: 1rem;
+    font-size:x-large;
+    border: 2px solid rgb(4, 144, 30);
+    border-radius: 6px;
+    margin: 0.2em 20em 0.2em 20em;
+}
+
+.row{
+    display: flex;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.registration{
+    background-color: greenyellow;
+    padding:0.5em 0.5em 0.5em 0.5em;
+    border-radius: 5px;
+}
+.register{
+    background-color: rgb(216, 231, 118);
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    color: rgb(186, 38, 38);
+    font: bold;
+    font-size: x-large;
+}

@@ -1,39 +1,166 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Registration</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign In</title>
+  <link rel="stylesheet" href="sign.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background-color:PeachPuff">
-  <h1 style="color:blue font-size:200%" align="center"> <strong>ALUMNI REGISTRATION PORTAL</strong> </h1><br><br>
-  <form><b>
-      <pre>
-  First name    : <input type="text" name="firstname" align="right" width =50 px ><br><br>
-  Middle name   : <input type="text" name="middlename"><br><br>
-  Last name     : <input type="text" name="lastname"><br><br>
-  Date Of Birth : <input type="text" name="dob"><br><br>
-  Gender :	
-  	  <input type="radio" name="gender" value="male" checked> Male<br>
-  	  <input type="radio" name="gender" value="female"> Female<br>
-          <input type="radio" name="gender" value="other"> Other<br><br>
-          
-  Email Id      : <input type="text" name="email"><br><br>
-  Phone 1 	: <input type="text" name="Phone1"><br><br>
-  Phone 2 	: <input type="text" name="Phone2"><br><br>
-  
-  year of passing       : <input type="text" name="dno"><br><br>
-  company_name          : <input type="text" name="street"><br><br>
-  Expert_in_Technology	: <input type="text" name="city"><br><br>
-  Experience		    : <input type="text" name="state"><br><br>
-  Country 	            : <input type="text" name="country"><br><br>
-  Pin code 	            : <input type="text" name="pincode"><br><br>  
-      </pre>
-    </b>
-    <input type="submit" value="Submit">
-  </form>
+<body>
+  <!-- register here  -->
+   <div class="register">
+      REGISTER HERE
+    </div>
+  <!-- registration section  -->
+  <div class="container">
+    <div class="form-container">
+      <form action="">
+        <div border="0" class="input-container">
+          <div   class="row">
+            <div>Name:</div>
+            <div>
+              <input type="text" name="username" placeholder="Enter your Full name" />
+            </div>
+          </div>
+          <div  class="row">
+            <div>Email Id:</div>
+            <div>
+              <input type="email" name="Email" placeholder="Enter your Email" />
+            </div>
+          </div>
+          <div  class="row">
+            <div>Phone Number:</div>
+            <div>
+              <input type="tel" name="username" placeholder="Enter your username" />
+            </div>
+          </div>
+          <div  class="row">
+            <div>Select Gender:</div> 
+            <div class="row">
+              <select name="gender" id="">
+                <option value="">Please selct one</option>
+                <option value="female">female</option>
+                <option value="male">male</option>
+              </select>
+            </div>
+          </div>
+          <div  class="row">
+            <div>Branch:</div>
+            <div>
+              <select name="branch" id="">
+                <option value="">Please selct one</option>
+                <option value="CSE">CSE</option>
+                <option value="IT">IT</option>
+                <option value="ECE">ECE</option>
+                <option value="EE">EE</option>
+                <option value="CE">CE</option>
+                <option value="CIVIL">CIVIL</option>
+                <option value="ME">ME</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div>Passing Year:</div>
+            <div>
+              <input type="number" name="quantity" placeholder="Passing year" min="2007" max="2023" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div>Select City:</div>
+            <div>
+                <input type="text" name="city" placeholder="Enter your city">
+            </div>
+
+          </div>
+
+           <div class="row">
+            <div>Password:</div>
+            <div>
+                <input type="password" name="password" placeholder="Enter your password here">
+            </div>
+
+          </div>
+          <div class="row">
+            <div>Confirm Password:</div>
+            <div>
+                <input type="password" name="password" placeholder="Enter your password here">
+            </div>
+
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="registration">
+      REGISTER
+    </div>
+  </div>
+
+  <hr>
+ <!-- footer section  -->
+    <footer>
+   
+        <div class="footer-section">
+            <div class="about-institute-section">
+                <img src="image/iist logo.jpg" alt="">
+                <p class="about">Indore Institute of Science and Technology, Indore was established 2003. IIST is recognized as a leading institute in the state of Madhya Pradesh.</p>
+            </div>
+    
+            <div class="useful-links">
+                <h2>UseFul links</h2>
+                <div class="nav-links">
+                    <li class="nav-items"><a href="">HOME</a></li>
+                    <li class="nav-items"><a href="">ALUMNI</a></li>
+                    <li class="nav-items"><a href="">NEWS&EVENT</a></li>
+                    <li class="nav-items"><a href="">COMITEE</a></li>
+                </div>
+            </div>
+    
+            <div class="about useful-links">
+                <h2>about</h2>
+                <div class="nav-links">
+                    <li class="nav-items"><a href="">SEARCH</a></li>
+                    <li class="nav-items"><a href="">SEARCH</a></li>
+                    <li class="nav-items"><a href="">JOb-POST</a></li>
+                    <li class="nav-items"><a href="">Contact</a></li>
+                </div>
+            </div>
+    
+            <div class="social-media">
+                <div class="Login-dashboard">
+                    login Dashboard
+                </div>
+
+                    <div class="social-handels">
+                        <i class="fa-brands fa-facebook" class="icons"></i>
+                        <i class="fa-brands fa-instagram" class="icons"></i>
+                        <i class="fa-brands fa-square-twitter" class="icons"></i>
+                        <i class="fa-brands fa-linkedin" class="icons"></i>
+
+                    </div>
+            </div>
+        </div>
+    </footer>
+
+    <hr/>
+
+    <p class="copyright">© 2022 IIST Alumni / All rights reserved</p>
+
+    <div class="end">
+
+    </div>
+
+
+
+    
+
+ 
 </body>
 
 </html>
